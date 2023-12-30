@@ -1,3 +1,3 @@
 ### Webmeter
 
-a TUI packet traffic monitor written in Perl
+TUI packet traffic monitor written in Perl
