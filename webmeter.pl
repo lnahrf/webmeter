@@ -18,7 +18,6 @@ my @tmem    = ();
 my $pkt_max = 2147483647;
 
 my $verbose = find_argv("--verbose");
-my $mac     = f_adapter_mac();
 my $a       = f_primary_adapter();
 my $mac     = f_adapter_mac($a);
 
