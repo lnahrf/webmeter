@@ -4,7 +4,6 @@ use strict;
 use Net::PcapUtils;
 use NetPacket::Ethernet;
 use NetPacket::IP;
-use Encode;
 use List::Util qw(any sum);
 use POSIX      qw(strftime ceil);
 use Term::ReadKey;
