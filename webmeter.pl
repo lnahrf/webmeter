@@ -52,7 +52,7 @@ sub gmem_max_pkt {
     }
 
     my $max = $gmem[0]->{pkt_len};
-    foreach my $pkt (@gmem) {
+    for my $pkt (@gmem) {
         if ( $pkt->{pkt_len} > $max ) {
             $max = $pkt->{pkt_len};
         }
@@ -67,7 +67,7 @@ sub gmem_min_pkt {
     }
 
     my $min = $gmem[0]->{pkt_len};
-    foreach my $pkt (@gmem) {
+    for my $pkt (@gmem) {
         if ( $pkt->{pkt_len} < $min ) {
             $min = $pkt->{pkt_len};
         }
